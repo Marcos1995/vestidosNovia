@@ -833,7 +833,7 @@
 
         const marker = L.marker([shop.lat, shop.lng], { icon: customIcon }).addTo(map);
         markersByRank[shop.rank] = marker;
-        const ruta = "https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&to=" + encodeURIComponent(shop.lat + "," + shop.lng);
+        const ruta = "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(shop.lat + "," + shop.lng);
         marker.bindPopup(`
           <div style="font-family: 'Public Sans', sans-serif; padding: 4px;">
             <div style="font-weight: 800; font-size: 13px; color: #032612;"><a href="${shop.web}" target="_blank" rel="noopener noreferrer" style="color:#032612;">#${shop.rank} ${shop.name}</a></div>

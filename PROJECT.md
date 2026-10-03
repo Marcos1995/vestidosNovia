@@ -7,7 +7,7 @@
 - Vista local: `index.html`
 
 ## Estado
-- Comparativa de 8 tiendas de novia en Barcelona y a ≤60 min (OSRM): encaje Laya, nota Bodas.net 1–5, precio publicado, colección o a medida, mapa OSM. Cada nombre enlaza a la web de la tienda. En cada marcador, Ruta abre OpenStreetMap para llegar desde el origen que elijas.
+- Comparativa de 8 tiendas de novia en Barcelona y a ≤60 min (OSRM): encaje Laya, nota Bodas.net 1–5, precio publicado, colección o a medida, mapa OSM. Cada nombre enlaza a la web de la tienda. En cada marcador, Ruta abre Google Maps para llegar desde el origen que elijas.
 - Fuera del ranking: Pronovias, Rosa Clará, Aire Barcelona y YolanCris (sin ficha Bodas.net comparable) y Girona/Palamós (más de 60 min).
 
 ## Stack
