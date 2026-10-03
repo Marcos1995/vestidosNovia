@@ -1,0 +1,92 @@
+{
+  ".cursor/agents/explorar.md": {
+    "mtime": 1791067632.5807543,
+    "seen": 1791068679.4884055,
+    "ast_hash": "6e208cfe0f5f10ed1c52eca68a3e5a5f",
+    "semantic_hash": ""
+  },
+  ".cursor/agents/implementar.md": {
+    "mtime": 1791067632.5807543,
+    "seen": 1791068679.4884055,
+    "ast_hash": "6e3d9911e1261b8a72f5b380803cc22d",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/debug/SKILL.md": {
+    "mtime": 1791067632.579754,
+    "seen": 1791068679.4884055,
+    "ast_hash": "31fbb3729bb6c43bb61f8ab136ad9854",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/jev/SKILL.md": {
+    "mtime": 1791067632.577754,
+    "seen": 1791068679.4884055,
+    "ast_hash": "c3316b3a3660cc86f81c89e6e583c440",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/laya/SKILL.md": {
+    "mtime": 1791067632.577754,
+    "seen": 1791068679.4884055,
+    "ast_hash": "1bc4782d5ba49d165ab91392a9a917b7",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/review/SKILL.md": {
+    "mtime": 1791067632.5767543,
+    "seen": 1791068679.4884055,
+    "ast_hash": "d8fa8d4e21e3307fdd7d92d161d38bce",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/verify/SKILL.md": {
+    "mtime": 1791067632.579754,
+    "seen": 1791068679.4884055,
+    "ast_hash": "3ebb042e1baf3773e53ac9a5a0c77574",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/web-design/SKILL.md": {
+    "mtime": 1791067632.5787542,
+    "seen": 1791068679.4884055,
+    "ast_hash": "b53c23cc97d5297d39979dab45e25010",
+    "semantic_hash": ""
+  },
+  ".cursor/skills/web-design/dashboard.md": {
+    "mtime": 1791067632.5787542,
+    "seen": 1791068679.4884055,
+    "ast_hash": "21b6be0ab0eec45e76bbf32ce8bc3fd2",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1791067632.5807543,
+    "seen": 1791068679.4884055,
+    "ast_hash": "de8a30e72dd30604bd7408146c465b4e",
+    "semantic_hash": ""
+  },
+  "DESIGN.md": {
+    "mtime": 1791068361.8867643,
+    "seen": 1791068679.4884055,
+    "ast_hash": "49c450c5e68feca6771ecfc0e3019cca",
+    "semantic_hash": ""
+  },
+  "PROJECT.md": {
+    "mtime": 1791068366.042318,
+    "seen": 1791068679.4884055,
+    "ast_hash": "afc6b8a30985160cb8e3bb430b166153",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1791067632.5867608,
+    "seen": 1791068679.4884055,
+    "ast_hash": "6e19bfb7a2b41ecd08931f191f63f18d",
+    "semantic_hash": ""
+  },
+  "docs/DECISIONES.md": {
+    "mtime": 1791068362.673851,
+    "seen": 1791068679.4884055,
+    "ast_hash": "13ce830b14cc020cb6fa1bad11b5287c",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1791068626.7562394,
+    "seen": 1791068679.4884055,
+    "ast_hash": "90df2de04e6bf8d786484a9efbec499b",
+    "semantic_hash": ""
+  }
+}
