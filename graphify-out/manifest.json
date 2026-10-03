@@ -66,9 +66,9 @@
     "semantic_hash": ""
   },
   "PROJECT.md": {
-    "mtime": 1791069375.884154,
-    "seen": 1791069385.8389492,
-    "ast_hash": "6b514c8fffaeeb6d867fdadc6cd91e5a",
+    "mtime": 1791070906.5025573,
+    "seen": 1791070997.0418868,
+    "ast_hash": "0a7d6490557051e67d6281dfaaf26948",
     "semantic_hash": ""
   },
   "README.md": {
@@ -78,15 +78,15 @@
     "semantic_hash": ""
   },
   "docs/DECISIONES.md": {
-    "mtime": 1791068362.673851,
-    "seen": 1791068679.4884055,
-    "ast_hash": "13ce830b14cc020cb6fa1bad11b5287c",
+    "mtime": 1791070902.4759843,
+    "seen": 1791070997.0418868,
+    "ast_hash": "dbfc7d226d8cbe506608f9a58543cdf1",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1791070574.309677,
-    "seen": 1791070655.3781166,
-    "ast_hash": "e04cab20da4fc3dd355815f3f1e859c4",
+    "mtime": 1791070901.0225964,
+    "seen": 1791070997.0418868,
+    "ast_hash": "5c19dfa2fd4b9bdeb44d1d8cdf7032bc",
     "semantic_hash": ""
   }
 }
