@@ -1,6 +1,6 @@
 # Dashboard brief (for the Stitch prompt)
 
-Read when the page shows numbers that change (prices, stats, rankings, metrics). Put this anatomy in the `generate_screen_from_text` / `edit_screens` prompt. Stitch designs it; you integrate. Keep one compact view: drop a chart, control, or section that repeats the finding. If the reader needs to see where something is (a route, stops, cities), one map with those points, OpenStreetMap, no paid key. Otherwise no map. Reference result: `tarifas-espana` (`build.py`, `dashboard()`).
+Read when the page shows numbers that change (prices, stats, rankings, metrics). Put this anatomy in the `generate_screen_from_text` / `edit_screens` prompt. Stitch designs it; you integrate. Keep one compact view: drop a chart, control, or section that repeats the finding. If the reader needs to see where something is (a route, stops, cities), one map with those points, OpenStreetMap, no paid key. Every time a place with a real website is named, the name links to that site; do not invent a URL. A name that is only a website links to that site. A place with no website keeps a plain name that scrolls to the map. Each ranking row has Ver mapa (scrolls to the map, highlights that point, opens the popup) and Ruta (Google Maps directions, destination = that point; the traveler picks the origin). The popup name links to the website when there is one, and repeats Ruta. Ver mapa and Ruta (row and popup) are solid `#18E667` with text `#032612` in light and dark; override a gray fill or white label. Otherwise no map. Reference result: `tarifas-espana` (`build.py`, `dashboard()`).
 
 ## Anatomy (always)
 
@@ -42,9 +42,11 @@ Layout: sidebar tabs on desktop (Resumen, then sections), top scrollable tabs < 
 .chart .ln.main{stroke:var(--accent)}.chart .ln.ref{stroke:var(--muted);stroke-dasharray:5 5;stroke-width:2}
 .legend{display:flex;flex-wrap:wrap;gap:.4rem 1rem;margin-top:.7rem;color:var(--muted);font-size:.8125rem}
 .legend span::before{content:"";display:inline-block;width:.65rem;height:.65rem;margin-right:.35rem;border-radius:3px;background:var(--c);vertical-align:-1px}
-.rk{display:grid;grid-template-columns:5.6rem minmax(0,1fr) 4.9rem;gap:.6rem;align-items:center;padding:.3rem .45rem;border-radius:8px;font-size:.9rem}
+.rk{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(4rem,1fr) auto;gap:.35rem .6rem;align-items:center;padding:.45rem;border-radius:8px;font-size:.9rem}
 .rk i{display:block;height:.8rem;border-radius:99px;background:color-mix(in srgb,var(--accent) 55%,var(--line))}
 .rk b{text-align:right;font-variant-numeric:tabular-nums}
+.rk .acts{grid-column:1/-1;display:flex;gap:.35rem}
+a.go,button.go{padding:.15rem .55rem;border-radius:99px;border:0;background:#18E667;color:#032612;font:inherit;font-size:.75rem;font-weight:650;text-decoration:none;cursor:pointer}
 ```
 
 ## Charts without libraries (inline SVG, no CDN)
@@ -65,7 +67,7 @@ function lines(el,labels,main,ref){ // two series, same scale
   el.innerHTML=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Gráfico de líneas">${o}</svg>`}
 ```
 
-Ranking list: sort ascending, one `.rk` row per item (`<span>name</span><i style="width:N%"></i><b>value</b>`), highlight the selected row with `box-shadow:inset 0 0 0 1px var(--accent)`.
+Ranking list: sort ascending, one `.rk` row per item (`<a class="nm" href="URL">name</a><i style="width:N%"></i><b>value</b><span class="acts"><button type="button" class="go" data-map="id">Ver mapa</button><a class="go" href="https://www.google.com/maps/dir/?api=1&destination=LAT,LNG" target="_blank" rel="noopener noreferrer">Ruta</a></span>`). Omit the name `href` when there is no real URL (the name then scrolls to the map). Omit Ver mapa and Ruta when the row is not a place. Highlight the selected row with `box-shadow:inset 0 0 0 1px var(--accent)`.
 
 ## Data honesty (non-negotiable)
 

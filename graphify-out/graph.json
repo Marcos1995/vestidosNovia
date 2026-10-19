@@ -247,6 +247,18 @@
       "source_location": "L1"
     },
     {
+      "id": "start",
+      "label": "START.md",
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "START.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "start.md",
+      "source_file": "START.md",
+      "source_location": "L1"
+    },
+    {
       "id": "cursor_skills_web_design_dashboard",
       "label": "dashboard.md",
       "_origin": "ast",
@@ -280,7 +292,7 @@
       "node_kind": "heading",
       "norm_label": "charts without libraries (inline svg, no cdn)",
       "source_file": ".cursor/skills/web-design/dashboard.md",
-      "source_location": "L50"
+      "source_location": "L52"
     },
     {
       "id": "cursor_skills_web_design_dashboard_css",
@@ -316,7 +328,7 @@
       "node_kind": "heading",
       "norm_label": "data honesty (non-negotiable)",
       "source_file": ".cursor/skills/web-design/dashboard.md",
-      "source_location": "L70"
+      "source_location": "L72"
     },
     {
       "id": "cursor_skills_verify_skill",
@@ -984,7 +996,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".cursor/skills/web-design/dashboard.md",
-      "source_location": "L50",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
@@ -995,7 +1007,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": ".cursor/skills/web-design/dashboard.md",
-      "source_location": "L70",
+      "source_location": "L72",
       "weight": 1.0
     },
     {
@@ -1153,5 +1165,6 @@
       "weight": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "224cf47a4d16dd616706260589b93db9b0419cb2"
 }

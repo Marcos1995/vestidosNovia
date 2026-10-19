@@ -42,15 +42,15 @@
     "semantic_hash": ""
   },
   ".cursor/skills/web-design/SKILL.md": {
-    "mtime": 1791067632.5787542,
-    "seen": 1791068679.4884055,
-    "ast_hash": "b53c23cc97d5297d39979dab45e25010",
+    "mtime": 1791115279.7739341,
+    "seen": 1792432117.8599648,
+    "ast_hash": "c002ea1c0580651d237c6f8885bfeab6",
     "semantic_hash": ""
   },
   ".cursor/skills/web-design/dashboard.md": {
-    "mtime": 1791067632.5787542,
-    "seen": 1791068679.4884055,
-    "ast_hash": "21b6be0ab0eec45e76bbf32ce8bc3fd2",
+    "mtime": 1791115279.799256,
+    "seen": 1792432117.8599648,
+    "ast_hash": "e1810648419c9771f5fc049bb90e5c2c",
     "semantic_hash": ""
   },
   "AGENTS.md": {
@@ -87,6 +87,12 @@
     "mtime": 1791071218.324146,
     "seen": 1791071246.1001143,
     "ast_hash": "32afcc89c8960dd2be73a96b7b985fd1",
+    "semantic_hash": ""
+  },
+  "START.md": {
+    "mtime": 1792431681.0478268,
+    "seen": 1792432117.8599648,
+    "ast_hash": "bcfe3a344eb2f495e821cd3dae85d0cc",
     "semantic_hash": ""
   }
 }
